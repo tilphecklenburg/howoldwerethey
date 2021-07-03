@@ -17,4 +17,6 @@ def getcelebrityage():
     else:
         print("Error:", response.status_code, response.text)
 
+def getmediadata():
+    #get
 getcelebrityage()
