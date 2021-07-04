@@ -18,5 +18,4 @@ def getcelebrityage():
         print("Error:", response.status_code, response.text)
 
 def getmediadata():
-    #get
-getcelebrityage()
+    print('placeholder')
