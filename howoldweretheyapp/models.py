@@ -2,8 +2,8 @@ from django.db import models
 from .tools import getcelebrityage
 
 class Celebrity(models.Model):
-    name = models.CharField(max_length=30)
-    age = models.CharField(max_length=3)
+    name = models.CharField(max_length=30, default='')
+    age = models.CharField(max_length=3, default='10')
 
     def __str__(self):
         return self.name
